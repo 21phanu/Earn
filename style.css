@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(48, 166, 196, 0.2);
+}
+
+h1 {
+    color: #ff87cd;
+}
+
+h2 {
+    color: #ff87cd;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin: 15px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e45a4a;
+}
+
+.hidden {
+    display: none;
+}
+
+#surprise {
+    margin-top: 20px;
+}
+
+.pixel-art {
+    width: 200px; /* ขนาดตาราง */
+    height: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(90, 120px); /* ตาราง 10x10 */
+    grid-template-rows: repeat(80, 100px);
+    gap: 2px;
+}
+
+.pixel-art img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* ปรับขนาดรูปให้พอดี */
+}
+
+
